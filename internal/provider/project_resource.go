@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"git.adyxax.org/adyxax/terraform-eventline/internal/evcli"
+	"git.adyxax.org/adyxax/terraform-eventline/external/evcli"
 	"github.com/exograd/eventline/pkg/eventline"
 	"github.com/exograd/go-daemon/ksuid"
 	"github.com/hashicorp/terraform-plugin-framework/path"

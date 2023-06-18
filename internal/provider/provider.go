@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"git.adyxax.org/adyxax/terraform-eventline/internal/evcli"
+	"git.adyxax.org/adyxax/terraform-eventline/external/evcli"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
@@ -57,13 +57,12 @@ func (p *Provider) Configure(ctx context.Context, req provider.ConfigureRequest,
 	if resp.Diagnostics.HasError() {
 		return
 	}
-	config := evcli.Config{API: evcli.APIConfig{Endpoint: data.Endpoint.ValueString()}}
+	config := evcli.APIConfig{Endpoint: data.Endpoint.ValueString(), Key: data.ApiKey.ValueString()}
 	client, err := evcli.NewClient(&config)
 	if err != nil {
 		resp.Diagnostics.AddError("new api client", fmt.Sprintf("Unable to instanciate eventline api client, got error: %s", err))
 		return
 	}
-	client.APIKey = data.ApiKey.ValueString()
 
 	resp.DataSourceData = client
 	resp.ResourceData = client
