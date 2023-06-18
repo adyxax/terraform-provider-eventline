@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"net/url"
 
@@ -34,6 +33,7 @@ func NewClient(config *APIConfig) (*Client, error) {
 	}
 
 	if err != nil {
+		return nil, err
 	}
 
 	return client, nil
@@ -75,7 +75,7 @@ func (c *Client) SendRequest(method string, relURI *url.URL, body, dest interfac
 	}
 	defer res.Body.Close()
 
-	resBody, err := ioutil.ReadAll(res.Body)
+	resBody, err := io.ReadAll(res.Body)
 	if err != nil {
 		return fmt.Errorf("cannot read response body: %w", err)
 	}
