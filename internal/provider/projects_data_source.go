@@ -9,33 +9,31 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-plugin-framework/types/basetypes"
 )
 
-type projectsDataSource struct {
+type ProjectsDataSource struct {
 	client *evcli.Client
 }
 
-var _ datasource.DataSource = &projectsDataSource{} // Ensure provider defined types fully satisfy framework interfaces.
+var _ datasource.DataSource = &ProjectsDataSource{} // Ensure provider defined types fully satisfy framework interfaces
 func NewProjectsDataSource() datasource.DataSource {
-	return &projectsDataSource{}
+	return &ProjectsDataSource{}
 }
 
-type ProjectsModel struct {
-	Elements []ProjectModel `tfsdk:"elements"`
+type ProjectsDataSourceModel struct {
+	Elements []ProjectDataSourceModel `tfsdk:"elements"`
 }
-type ProjectModel struct {
+type ProjectDataSourceModel struct {
 	Id   types.String `tfsdk:"id"`
 	Name types.String `tfsdk:"name"`
 }
 
-func (d *projectsDataSource) Metadata(ctx context.Context, req datasource.MetadataRequest, resp *datasource.MetadataResponse) {
+func (d *ProjectsDataSource) Metadata(ctx context.Context, req datasource.MetadataRequest, resp *datasource.MetadataResponse) {
 	resp.TypeName = req.ProviderTypeName + "_projects"
 }
 
-func (d *projectsDataSource) Schema(ctx context.Context, req datasource.SchemaRequest, resp *datasource.SchemaResponse) {
+func (d *ProjectsDataSource) Schema(ctx context.Context, req datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
-		MarkdownDescription: "Eventline projects data source",
 		Attributes: map[string]schema.Attribute{
 			"elements": schema.ListAttribute{
 				Computed: true,
@@ -48,15 +46,16 @@ func (d *projectsDataSource) Schema(ctx context.Context, req datasource.SchemaRe
 				MarkdownDescription: "Projects list",
 			},
 		},
+		MarkdownDescription: "Eventline projects data source",
 	}
 }
 
-func (d *projectsDataSource) Configure(ctx context.Context, req datasource.ConfigureRequest, resp *datasource.ConfigureResponse) {
+func (d *ProjectsDataSource) Configure(ctx context.Context, req datasource.ConfigureRequest, resp *datasource.ConfigureResponse) {
 	d.client, _ = req.ProviderData.(*evcli.Client)
 }
 
-func (d *projectsDataSource) Read(ctx context.Context, req datasource.ReadRequest, resp *datasource.ReadResponse) {
-	var data ProjectsModel
+func (d *ProjectsDataSource) Read(ctx context.Context, req datasource.ReadRequest, resp *datasource.ReadResponse) {
+	var data ProjectsDataSourceModel
 	resp.Diagnostics.Append(req.Config.Get(ctx, &data)...)
 	if resp.Diagnostics.HasError() {
 		return
@@ -66,9 +65,9 @@ func (d *projectsDataSource) Read(ctx context.Context, req datasource.ReadReques
 		resp.Diagnostics.AddError("FetchProjects", fmt.Sprintf("Unable to fetch projects, got error: %s", err))
 		return
 	}
-	projectList := make([]ProjectModel, len(projects))
+	projectList := make([]ProjectDataSourceModel, len(projects))
 	for i, project := range projects {
-		projectList[i] = ProjectModel{Id: basetypes.NewStringValue(project.Id.String()), Name: basetypes.NewStringValue(project.Name)}
+		projectList[i] = ProjectDataSourceModel{Id: types.StringValue(project.Id.String()), Name: types.StringValue(project.Name)}
 	}
 	data.Elements = projectList
 	resp.Diagnostics.Append(resp.State.Set(ctx, &data)...)
