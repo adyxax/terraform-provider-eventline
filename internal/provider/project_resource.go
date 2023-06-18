@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"git.adyxax.org/adyxax/terraform-eventline/external/evcli"
+	"git.adyxax.org/adyxax/terraform-provider-eventline/external/evcli"
 	"github.com/exograd/eventline/pkg/eventline"
 	"github.com/exograd/go-daemon/ksuid"
 	"github.com/hashicorp/terraform-plugin-framework/path"
@@ -20,7 +20,7 @@ type ProjectResource struct {
 	client *evcli.Client
 }
 
-var _ resource.Resource = &ProjectResource{} // Ensure provider defined types fully satisfy framework interfaces
+var _ resource.Resource = &ProjectResource{}                // Ensure provider defined types fully satisfy framework interfaces
 var _ resource.ResourceWithImportState = &ProjectResource{} // Ensure provider defined types fully satisfy framework interfaces
 func NewProjectResource() resource.Resource {
 	return &ProjectResource{}

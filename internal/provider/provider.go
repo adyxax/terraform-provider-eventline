@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"git.adyxax.org/adyxax/terraform-eventline/external/evcli"
+	"git.adyxax.org/adyxax/terraform-provider-eventline/external/evcli"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
