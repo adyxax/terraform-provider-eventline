@@ -1,4 +1,12 @@
+terraform {
+  required_providers {
+    eventline = {
+      source = "adyxax/eventline"
+    }
+  }
+}
+
 provider "eventline" {
-  api_key  = "12345678-9abc-def0-1234-56789abcdef0"
+  api_key  = var.eventline_api_key
   endpoint = "http://localhost:8085/"
 }
