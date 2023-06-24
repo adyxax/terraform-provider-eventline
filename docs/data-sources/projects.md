@@ -3,12 +3,12 @@
 page_title: "eventline_projects Data Source - terraform-provider-eventline"
 subcategory: ""
 description: |-
-  Eventline projects data source
+  Use this data source to retrieve information about existing eventline projects.
 ---
 
 # eventline_projects (Data Source)
 
-Eventline projects data source
+Use this data source to retrieve information about existing eventline projects.
 
 ## Example Usage
 
@@ -22,12 +22,12 @@ data "projects" "example" {
 
 ### Read-Only
 
-- `elements` (List of Object) Projects list (see [below for nested schema](#nestedatt--elements))
+- `elements` (Attributes List) The list of projects. (see [below for nested schema](#nestedatt--elements))
 
 <a id="nestedatt--elements"></a>
 ### Nested Schema for `elements`
 
 Read-Only:
 
-- `id` (String)
-- `name` (String)
+- `id` (String) The identifier of the project.
+- `name` (String) The name of the project.

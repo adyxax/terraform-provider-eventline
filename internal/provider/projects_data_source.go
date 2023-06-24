@@ -5,7 +5,6 @@ import (
 	"fmt"
 
 	"git.adyxax.org/adyxax/terraform-provider-eventline/external/evcli"
-	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
@@ -35,18 +34,24 @@ func (d *ProjectsDataSource) Metadata(ctx context.Context, req datasource.Metada
 func (d *ProjectsDataSource) Schema(ctx context.Context, req datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		Attributes: map[string]schema.Attribute{
-			"elements": schema.ListAttribute{
-				Computed: true,
-				ElementType: types.ObjectType{
-					AttrTypes: map[string]attr.Type{
-						"id":   types.StringType,
-						"name": types.StringType,
+			"elements": schema.ListNestedAttribute{
+				Computed:            true,
+				MarkdownDescription: "The list of projects.",
+				NestedObject: schema.NestedAttributeObject{
+					Attributes: map[string]schema.Attribute{
+						"id": schema.StringAttribute{
+							Computed:            true,
+							MarkdownDescription: "The identifier of the project.",
+						},
+						"name": schema.StringAttribute{
+							Computed:            true,
+							MarkdownDescription: "The name of the project.",
+						},
 					},
 				},
-				MarkdownDescription: "Projects list",
 			},
 		},
-		MarkdownDescription: "Eventline projects data source",
+		MarkdownDescription: "Use this data source to retrieve information about existing eventline projects.",
 	}
 }
 
