@@ -1,4 +1,7 @@
-## 0.0.3 - 2023-06-24
+## 0.0.3 - 2023-06-26
+
+### Features
+* Add jobs datasource
 
 ### Notes
 * Update projects data source schema to use an extended attributes definition
@@ -10,6 +13,6 @@
 
 ## 0.0.1 - 2023-06-19
 
-### FEATURES
+### Features
 * Add projects datasource
 * Add project resource
