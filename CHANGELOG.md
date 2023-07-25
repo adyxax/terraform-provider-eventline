@@ -1,3 +1,8 @@
+## 0.0.4 - 2023-06-25
+
+### Notes
+* Upgraded dependencies
+
 ## 0.0.3 - 2023-06-26
 
 ### Features
