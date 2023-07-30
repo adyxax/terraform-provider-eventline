@@ -1,3 +1,8 @@
+## 0.0.5 - 2023-07-31
+
+### Features
+* Add identities datasource
+
 ## 0.0.4 - 2023-06-25
 
 ### Notes

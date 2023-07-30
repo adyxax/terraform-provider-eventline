@@ -181,6 +181,34 @@ func (c *Client) UpdateProject(project *eventline.Project) error {
 	return c.SendRequest("PUT", uri, project, nil)
 }
 
+func (c *Client) FetchIdentities() (Identities, error) {
+	var identities Identities
+
+	cursor := eventline.Cursor{Size: 20}
+
+	for {
+		var page IdentityPage
+
+		uri := NewURL("identities")
+		uri.RawQuery = cursor.Query().Encode()
+
+		err := c.SendRequest("GET", uri, nil, &page)
+		if err != nil {
+			return nil, err
+		}
+
+		identities = append(identities, page.Elements...)
+
+		if page.Next == nil {
+			break
+		}
+
+		cursor = *page.Next
+	}
+
+	return identities, nil
+}
+
 func (c *Client) ReplayEvent(id string) (*eventline.Event, error) {
 	var event eventline.Event
 
