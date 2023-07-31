@@ -78,6 +78,7 @@ func (p *Provider) DataSources(ctx context.Context) []func() datasource.DataSour
 	return []func() datasource.DataSource{
 		NewIdentitiesDataSource,
 		NewJobsDataSource,
+		NewProjectDataSource,
 		NewProjectsDataSource,
 	}
 }
