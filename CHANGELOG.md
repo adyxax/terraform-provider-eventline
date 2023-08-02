@@ -1,3 +1,12 @@
+## 0.0.6 - 2023-08-03
+
+### Features
+* Add project datasource
+
+### Notes
+* Added identities and jobs datasources usage examples
+* Batch FetchProjects api calls
+
 ## 0.0.5 - 2023-07-31
 
 ### Features

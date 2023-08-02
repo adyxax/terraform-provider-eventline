@@ -112,7 +112,7 @@ func (c *Client) SendRequest(method string, relURI *url.URL, body, dest interfac
 func (c *Client) FetchProjects() (eventline.Projects, error) {
 	var projects eventline.Projects
 
-	cursor := eventline.Cursor{Size: 1}
+	cursor := eventline.Cursor{Size: 20}
 
 	for {
 		var page ProjectPage
