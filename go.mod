@@ -6,7 +6,7 @@ require (
 	github.com/exograd/eventline v1.0.8
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.16.0
-	github.com/hashicorp/terraform-plugin-framework v1.3.4
+	github.com/hashicorp/terraform-plugin-framework v1.3.5
 	github.com/stretchr/testify v1.8.4
 )
 
