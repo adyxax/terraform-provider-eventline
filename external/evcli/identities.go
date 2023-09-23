@@ -2,7 +2,6 @@ package evcli
 
 import (
 	"encoding/json"
-	"fmt"
 	"time"
 
 	"github.com/exograd/eventline/pkg/eventline"
@@ -27,7 +26,6 @@ type Identity struct {
 	RefreshTime  *time.Time               `json:"refresh_time,omitempty"`
 	Connector    string                   `json:"connector"`
 	Type         string                   `json:"type"`
-	Data         eventline.IdentityData   `json:"-"`
 	RawData      json.RawMessage          `json:"data"`
 }
 
@@ -44,30 +42,4 @@ func (i *Identity) SortKey(sort string) (key string) {
 	}
 
 	return
-}
-
-func (pi *Identity) MarshalJSON() ([]byte, error) {
-	type Identity2 Identity
-
-	i := Identity2(*pi)
-	data, err := json.Marshal(i.Data)
-	if err != nil {
-		return nil, fmt.Errorf("cannot encode data: %w", err)
-	}
-
-	i.RawData = data
-
-	return json.Marshal(i)
-}
-
-func (pi *Identity) UnmarshalJSON(data []byte) error {
-	type Identity2 Identity
-
-	i := Identity2(*pi)
-	if err := json.Unmarshal(data, &i); err != nil {
-		return err
-	}
-
-	*pi = Identity(i)
-	return nil
 }

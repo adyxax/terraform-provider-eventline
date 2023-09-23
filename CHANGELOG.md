@@ -1,3 +1,10 @@
+## 0.1.0 - 2023-09-24
+### Features
+* Add identity resource
+
+### Notes
+* Upgraded dependencies
+
 ## 0.0.7 - 2023-09-19
 
 ### Notes

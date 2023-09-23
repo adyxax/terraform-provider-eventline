@@ -181,6 +181,12 @@ func (c *Client) UpdateProject(project *eventline.Project) error {
 	return c.SendRequest("PUT", uri, project, nil)
 }
 
+func (c *Client) CreateIdentity(identity *Identity) error {
+	uri := NewURL("identities")
+
+	return c.SendRequest("POST", uri, identity, identity)
+}
+
 func (c *Client) FetchIdentities() (Identities, error) {
 	var identities Identities
 
@@ -207,6 +213,31 @@ func (c *Client) FetchIdentities() (Identities, error) {
 	}
 
 	return identities, nil
+}
+
+func (c *Client) FetchIdentityById(id eventline.Id) (*Identity, error) {
+	uri := NewURL("identities", "id", id.String())
+
+	var identity Identity
+
+	err := c.SendRequest("GET", uri, nil, &identity)
+	if err != nil {
+		return nil, err
+	}
+
+	return &identity, nil
+}
+
+func (c *Client) UpdateIdentity(identity *Identity) error {
+	uri := NewURL("identities", "id", identity.Id.String())
+
+	return c.SendRequest("PUT", uri, identity, identity)
+}
+
+func (c *Client) DeleteIdentity(id eventline.Id) error {
+	uri := NewURL("identities", "id", id.String())
+
+	return c.SendRequest("DELETE", uri, nil, nil)
 }
 
 func (c *Client) ReplayEvent(id string) (*eventline.Event, error) {
