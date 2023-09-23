@@ -13,7 +13,7 @@ Use this data source to retrieve information about existing eventline projects.
 ## Example Usage
 
 ```terraform
-data "projects" "example" {
+data "eventline_projects" "example" {
 }
 ```
 

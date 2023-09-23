@@ -1,1 +1,1 @@
-terraform import eventline_project.test 0123456789ABCDEFGHIJKLMNOPQ
+terraform import eventline_project.test <project_id>

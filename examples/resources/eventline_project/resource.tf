@@ -1,3 +1,3 @@
-resource "project" "example" {
+resource "eventline_project" "example" {
   name = "example"
 }

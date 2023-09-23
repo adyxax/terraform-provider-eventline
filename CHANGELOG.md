@@ -2,6 +2,9 @@
 ### Features
 * Add identity resource
 
+### Fixes
+* Fixed various documentation entries
+
 ### Notes
 * Upgraded dependencies
 

@@ -1,2 +1,2 @@
-data "projects" "example" {
+data "eventline_projects" "example" {
 }

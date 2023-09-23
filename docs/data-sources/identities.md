@@ -13,7 +13,7 @@ Eventline identities data source
 ## Example Usage
 
 ```terraform
-data "project" "main" {
+data "eventline_project" "main" {
   name = "main"
 }
 

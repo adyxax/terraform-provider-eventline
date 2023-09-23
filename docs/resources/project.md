@@ -13,7 +13,7 @@ Eventline project resource
 ## Example Usage
 
 ```terraform
-resource "project" "example" {
+resource "eventline_project" "example" {
   name = "example"
 }
 ```
@@ -34,5 +34,5 @@ resource "project" "example" {
 Import is supported using the following syntax:
 
 ```shell
-terraform import eventline_project.test 0123456789ABCDEFGHIJKLMNOPQ
+terraform import eventline_project.test <project_id>
 ```
