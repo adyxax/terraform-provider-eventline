@@ -19,10 +19,10 @@ data "eventline_project" "main" {
 
 resource "eventline_identity" "example" {
   name       = "example"
-  project_id = data.project.main.id
+  project_id = data.eventline_project.main.id
 
   connector = "eventline"
-  data      = "{\n    \"key\": \"test\"\n  }"
+  data      = jsonencode({ "key" = "test" })
   type      = "api_key"
 }
 ```

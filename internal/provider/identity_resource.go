@@ -143,7 +143,14 @@ func (r *IdentityResource) Read(ctx context.Context, req resource.ReadRequest, r
 	data.Connector = types.StringValue(identity.Connector)
 	data.Id = types.StringValue(identity.Id.String())
 	data.Name = types.StringValue(identity.Name)
-	data.RawData = types.StringValue(string(identity.RawData))
+	rawDataEquals, err := JSONRawDataEqual(identity.RawData, json.RawMessage(data.RawData.ValueString()))
+	if err != nil {
+		resp.Diagnostics.AddError("JSONRawDataequal", fmt.Sprintf("Unable to compare identities RawData, got error: %s", err))
+		return
+	}
+	if !rawDataEquals {
+		data.RawData = types.StringValue(string(identity.RawData))
+	}
 	data.Status = types.StringValue(string(identity.Status))
 	data.Type = types.StringValue(identity.Type)
 	resp.Diagnostics.Append(resp.State.Set(ctx, &data)...)
