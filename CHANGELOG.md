@@ -1,3 +1,7 @@
+## 0.1.2 - 2023-09-25
+### Fixes
+* Re-release
+
 ## 0.1.1 - 2023-09-25
 ### Features
 * Fixed identity resource RawData idempotency
