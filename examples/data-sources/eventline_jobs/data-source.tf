@@ -3,5 +3,5 @@ data "eventline_project" "main" {
 }
 
 data "eventline_jobs" "example" {
-  project_id = data.project.main.id
+  project_id = data.eventline_project.main.id
 }
