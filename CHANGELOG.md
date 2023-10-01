@@ -1,3 +1,7 @@
+## 0.1.3 - 2023-10-02
+### Notes
+* Upgraded dependencies
+
 ## 0.1.2 - 2023-09-25
 ### Fixes
 * Re-release
