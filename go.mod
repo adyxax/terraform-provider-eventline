@@ -6,7 +6,7 @@ require (
 	github.com/exograd/eventline v1.0.8
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.16.0
-	github.com/hashicorp/terraform-plugin-framework v1.4.1
+	github.com/hashicorp/terraform-plugin-framework v1.4.2
 	github.com/stretchr/testify v1.8.4
 )
 
@@ -73,7 +73,7 @@ require (
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
 	golang.org/x/mod v0.11.0 // indirect
-	golang.org/x/net v0.15.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231002182017-d307bd883b97 // indirect
