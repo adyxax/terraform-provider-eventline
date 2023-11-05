@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"git.adyxax.org/adyxax/terraform-provider-eventline/external/evcli"
-	"github.com/exograd/go-daemon/ksuid"
+	"github.com/exograd/eventline/pkg/ksuid"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"

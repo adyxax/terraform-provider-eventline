@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"git.adyxax.org/adyxax/terraform-provider-eventline/external/evcli"
-	"github.com/exograd/go-daemon/ksuid"
+	"github.com/exograd/eventline/pkg/ksuid"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
