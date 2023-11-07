@@ -1,3 +1,7 @@
+## 0.2.1 - 2023-11-07
+### Notes
+* Upgraded dependencies
+
 ## 0.2.0 - 2023-11-05
 ### Features
 * Eventline 1.1.0 compatibility
