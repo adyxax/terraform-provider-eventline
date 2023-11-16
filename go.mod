@@ -22,8 +22,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/galdor/go-ejson v0.0.0-20231011132920-160911d200dc // indirect
-	github.com/galdor/go-log v0.0.0-20230605123224-cb794ee76fa0 // indirect
-	github.com/galdor/go-service v0.0.0-20230928192910-0a3c839877e8 // indirect
+	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
+	github.com/galdor/go-service v0.0.0-20231116153831-c31a69293960 // indirect
 	github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.1 // indirect

@@ -35,10 +35,10 @@ github.com/fatih/color v1.16.0/go.mod h1:fL2Sau1YI5c0pdGEVCbKQbLXB6edEj1ZgiY4Nij
 github.com/frankban/quicktest v1.14.3 h1:FJKSZTDHjyhriyC81FLQ0LY93eSai0ZyR/ZIkd3ZUKE=
 github.com/galdor/go-ejson v0.0.0-20231011132920-160911d200dc h1:EwwqfYHsb2iRMOqJgXAxoCWRzaPxijO8SIYVSloqN1c=
 github.com/galdor/go-ejson v0.0.0-20231011132920-160911d200dc/go.mod h1:UjFWag8YC+hQOHLuJv/CRcjLvO83oI8bO0ZaZhCL6QY=
-github.com/galdor/go-log v0.0.0-20230605123224-cb794ee76fa0 h1:R0TZ52Z+C0YArYMUa3uu509ll2I+LcELp/y0Or0vEBE=
-github.com/galdor/go-log v0.0.0-20230605123224-cb794ee76fa0/go.mod h1:R6YFiHlngxF96nawrfe/P2/lBiv2lTZJHdy+HCF6idk=
-github.com/galdor/go-service v0.0.0-20230928192910-0a3c839877e8 h1:eGFKwy7gy8/EBFpu3s9BwNtBhc1muHzMcc3HUqZKOaE=
-github.com/galdor/go-service v0.0.0-20230928192910-0a3c839877e8/go.mod h1:Nx9fESQ3pQw5XTqMfcGFF6GZ+cFizM5FlUunkMIMFDE=
+github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 h1:mhSk1OIYX9AOp+pbOOcln7G2zlgQES+fO+0OptBGXEM=
+github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388/go.mod h1:R6YFiHlngxF96nawrfe/P2/lBiv2lTZJHdy+HCF6idk=
+github.com/galdor/go-service v0.0.0-20231116153831-c31a69293960 h1:xA5g5YHk20K0q8D8FadRoXVBR4eciTqFblFSmijqpjI=
+github.com/galdor/go-service v0.0.0-20231116153831-c31a69293960/go.mod h1:Nx9fESQ3pQw5XTqMfcGFF6GZ+cFizM5FlUunkMIMFDE=
 github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe h1:4SrWA+SCJDlEsbsfdvKdxlsVYMfzmyBJdMHXDkLRGiE=
 github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe/go.mod h1:IsTvYf6zc1cSS4IzlFOuBSP4preSKoB73uGgx98kMjg=
 github.com/go-git/gcfg v1.5.0 h1:Q5ViNfGF8zFgyJWPqYwA7qGFoMTEiBmdlkcfRmpIMa4=
