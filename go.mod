@@ -23,7 +23,7 @@ require (
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/galdor/go-ejson v0.0.0-20231201143428-0ac4174b95bf // indirect
 	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
-	github.com/galdor/go-service v0.0.0-20231206153033-29eaa9d44205 // indirect
+	github.com/galdor/go-service v0.0.0-20231222101450-cc2d72933c8e // indirect
 	github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.1 // indirect
@@ -76,6 +76,6 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231212172506-995d672761c0 // indirect
 	google.golang.org/grpc v1.60.1 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.32.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
