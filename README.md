@@ -33,3 +33,7 @@ resource "eventline_identity" "example" {
   type      = "api_key"
 }
 ```
+
+## Developing the provider
+
+TODO
