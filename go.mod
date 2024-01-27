@@ -40,7 +40,7 @@ require (
 	github.com/hashicorp/hc-install v0.6.2 // indirect
 	github.com/hashicorp/terraform-exec v0.20.0 // indirect
 	github.com/hashicorp/terraform-json v0.21.0 // indirect
-	github.com/hashicorp/terraform-plugin-go v0.20.0 // indirect
+	github.com/hashicorp/terraform-plugin-go v0.21.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.9.0 // indirect
 	github.com/hashicorp/terraform-registry-address v0.2.3 // indirect
 	github.com/hashicorp/terraform-svchost v0.1.1 // indirect
@@ -62,7 +62,7 @@ require (
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/posener/complete v1.2.3 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rivo/uniseg v0.4.6 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
@@ -78,7 +78,7 @@ require (
 	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240123012728-ef4313101c80 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240125205218-1f4bbc51befe // indirect
 	google.golang.org/grpc v1.61.0 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
