@@ -1,3 +1,11 @@
+## 0.2.7 - 2024-02-29
+### Notes
+* Upgraded dependencies
+
+## 0.2.6 - 2024-01-31
+### Notes
+* no diffs, this is a re-release because 0.2.5 was signed with the wrong gpg key
+
 ## 0.2.5 - 2024-01-31
 ### Notes
 * Upgraded dependencies
