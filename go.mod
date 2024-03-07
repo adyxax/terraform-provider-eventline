@@ -1,8 +1,6 @@
 module git.adyxax.org/adyxax/terraform-provider-eventline
 
-go 1.22
-
-toolchain go1.22.0
+go 1.22.1
 
 require (
 	github.com/exograd/eventline v1.1.0
@@ -28,7 +26,7 @@ require (
 	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
 	github.com/galdor/go-service v0.0.0-20240229175838-865ef6225ac6 // indirect
 	github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/cli v1.1.6 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -51,7 +49,7 @@ require (
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
-	github.com/jackc/pgx/v5 v5.5.3 // indirect
+	github.com/jackc/pgx/v5 v5.5.4 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/keybase/saltpack v0.0.0-20231213211625-726bb684c617 // indirect
 	github.com/leaanthony/go-ansi-parser v1.6.1 // indirect
@@ -73,16 +71,16 @@ require (
 	github.com/yuin/goldmark v1.6.0 // indirect
 	github.com/yuin/goldmark-meta v1.1.0 // indirect
 	github.com/zclconf/go-cty v1.14.1 // indirect
-	golang.org/x/crypto v0.20.0 // indirect
+	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240228224816-df926f6c8641 // indirect
-	google.golang.org/grpc v1.62.0 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240304212257-790db918fca8 // indirect
+	google.golang.org/grpc v1.62.1 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
