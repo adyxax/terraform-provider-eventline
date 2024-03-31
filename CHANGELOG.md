@@ -1,3 +1,7 @@
+## 0.2.8 - 2024-03-31
+### Notes
+* Upgraded dependencies
+
 ## 0.2.7 - 2024-02-29
 ### Notes
 * Upgraded dependencies
