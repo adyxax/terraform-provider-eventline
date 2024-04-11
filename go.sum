@@ -44,8 +44,8 @@ github.com/galdor/go-ejson v0.0.0-20240405095552-5d567fc5a35a h1:JoRhi2l5RnW7n5j
 github.com/galdor/go-ejson v0.0.0-20240405095552-5d567fc5a35a/go.mod h1:UjFWag8YC+hQOHLuJv/CRcjLvO83oI8bO0ZaZhCL6QY=
 github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 h1:mhSk1OIYX9AOp+pbOOcln7G2zlgQES+fO+0OptBGXEM=
 github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388/go.mod h1:R6YFiHlngxF96nawrfe/P2/lBiv2lTZJHdy+HCF6idk=
-github.com/galdor/go-service v0.0.0-20240406170527-548ab4b41545 h1:d/uhuYKMkd3p8ENqwwEPUGBY6wnn3X/BBqUnD4p827s=
-github.com/galdor/go-service v0.0.0-20240406170527-548ab4b41545/go.mod h1:+iAxzRkP63p2CgMutZvQhztZNHKLySCTDzw568swLPw=
+github.com/galdor/go-service v0.0.0-20240411181132-d50f1d9ef1d1 h1:y5gCGK96kQ0DIV3pmWu1QjFusIoMCSh2i8gSYAcp+2g=
+github.com/galdor/go-service v0.0.0-20240411181132-d50f1d9ef1d1/go.mod h1:Ho2CZIvyv7eTzPf/NRaVQQuAxgp2niYxo2H7+r7kfc0=
 github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe h1:4SrWA+SCJDlEsbsfdvKdxlsVYMfzmyBJdMHXDkLRGiE=
 github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe/go.mod h1:IsTvYf6zc1cSS4IzlFOuBSP4preSKoB73uGgx98kMjg=
 github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 h1:+zs/tPmkDkHx3U66DAb0lQFJrpS6731Oaa12ikc+DiI=
