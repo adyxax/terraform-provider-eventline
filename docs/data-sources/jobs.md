@@ -94,7 +94,7 @@ Read-Only:
 - `script` (Attributes) The command to execute for this step. (see [below for nested schema](#nestedatt--elements--spec--steps--script))
 
 <a id="nestedatt--elements--spec--steps--command"></a>
-### Nested Schema for `elements.spec.steps.script`
+### Nested Schema for `elements.spec.steps.command`
 
 Read-Only:
 
