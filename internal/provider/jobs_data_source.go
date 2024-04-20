@@ -209,7 +209,7 @@ func (d *JobsDataSource) Schema(ctx context.Context, req datasource.SchemaReques
 													"arguments": schema.ListAttribute{
 														Computed:            true,
 														ElementType:         types.StringType,
-														MarkdownDescription: "The list of arguments to pass to the command.",
+														MarkdownDescription: "The list of arguments to pass to the script.",
 													},
 													"content": schema.StringAttribute{
 														Computed:            true,

@@ -107,7 +107,7 @@ Read-Only:
 
 Read-Only:
 
-- `arguments` (List of String) The list of arguments to pass to the command.
+- `arguments` (List of String) The list of arguments to pass to the script.
 - `content` (String) The script file contents.
 - `path` (String) The path of the script file relative to the job file.
 
