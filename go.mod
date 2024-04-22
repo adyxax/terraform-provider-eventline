@@ -5,7 +5,7 @@ go 1.22.2
 require (
 	github.com/exograd/eventline v1.1.0
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
-	github.com/hashicorp/terraform-plugin-docs v0.19.0
+	github.com/hashicorp/terraform-plugin-docs v0.19.1
 	github.com/hashicorp/terraform-plugin-framework v1.8.0
 	github.com/stretchr/testify v1.9.0
 )
