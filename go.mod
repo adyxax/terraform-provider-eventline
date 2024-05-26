@@ -24,7 +24,7 @@ require (
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.17.0 // indirect
-	github.com/galdor/go-ejson v0.0.0-20240405095552-5d567fc5a35a // indirect
+	github.com/galdor/go-ejson v0.0.0-20240526131538-b29d6e641904 // indirect
 	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
 	github.com/galdor/go-service v0.0.0-20240521161824-a49afa34eed8 // indirect
 	github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe // indirect
@@ -51,7 +51,7 @@ require (
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
-	github.com/jackc/pgx/v5 v5.5.5 // indirect
+	github.com/jackc/pgx/v5 v5.6.0 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/keybase/saltpack v0.0.0-20231213211625-726bb684c617 // indirect
 	github.com/leaanthony/go-ansi-parser v1.6.1 // indirect
