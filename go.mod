@@ -27,7 +27,7 @@ require (
 	github.com/galdor/go-ejson v0.0.0-20240526131538-b29d6e641904 // indirect
 	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
 	github.com/galdor/go-service v0.0.0-20240521161824-a49afa34eed8 // indirect
-	github.com/galdor/go-uuid v0.0.0-20230418134831-d236b757febe // indirect
+	github.com/galdor/go-uuid v0.0.0-20240530180133-1981a1fa6e63 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/cli v1.1.6 // indirect
@@ -80,7 +80,7 @@ require (
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240521202816-d264139d666e // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
 	google.golang.org/grpc v1.64.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
