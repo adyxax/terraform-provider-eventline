@@ -1,6 +1,6 @@
 module git.adyxax.org/adyxax/terraform-provider-eventline
 
-go 1.22.2
+go 1.22.5
 
 require (
 	github.com/exograd/eventline v1.1.0
@@ -26,7 +26,7 @@ require (
 	github.com/fatih/color v1.17.0 // indirect
 	github.com/galdor/go-ejson v0.0.0-20240526131538-b29d6e641904 // indirect
 	github.com/galdor/go-log v0.0.0-20231116135458-c8a467cfb388 // indirect
-	github.com/galdor/go-service v0.0.0-20240614135852-5c012067f746 // indirect
+	github.com/galdor/go-service v0.0.0-20240701152604-9aba41b1c983 // indirect
 	github.com/galdor/go-uuid v0.0.0-20240530180133-1981a1fa6e63 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -80,8 +80,8 @@ require (
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240624140628-dc46fd24d27d // indirect
-	google.golang.org/grpc v1.64.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094 // indirect
+	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
