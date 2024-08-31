@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/exograd/eventline/pkg/eventline"
-	"github.com/exograd/eventline/pkg/utils"
+	"go.n16f.net/program"
 )
 
 type IdentityPage struct {
@@ -38,7 +38,7 @@ func (i *Identity) SortKey(sort string) (key string) {
 	case "name":
 		key = i.Name
 	default:
-		utils.Panicf("unknown identity sort %q", sort)
+		program.Panicf("unknown identity sort %q", sort)
 	}
 
 	return
