@@ -8,7 +8,7 @@ require (
 	github.com/hashicorp/terraform-plugin-docs v0.19.4
 	github.com/hashicorp/terraform-plugin-framework v1.11.0
 	github.com/stretchr/testify v1.9.0
-	go.n16f.net/program v0.0.0-20240905080349-5f3363143961
+	go.n16f.net/program v0.0.0-20240831125021-3669d150b233
 )
 
 require (
@@ -48,7 +48,7 @@ require (
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/jackc/pgx/v5 v5.6.0 // indirect
+	github.com/jackc/pgx/v5 v5.7.0 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/keybase/saltpack v0.0.0-20231213211625-726bb684c617 // indirect
 	github.com/leaanthony/go-ansi-parser v1.6.1 // indirect
@@ -70,9 +70,9 @@ require (
 	github.com/yuin/goldmark-meta v1.1.0 // indirect
 	github.com/zclconf/go-cty v1.14.4 // indirect
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
-	go.n16f.net/ejson v0.0.0-20240820145652-4e9192313c14 // indirect
+	go.n16f.net/ejson v0.0.0-20240907142838-60dfff0cd542 // indirect
 	go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 // indirect
-	go.n16f.net/service v0.0.0-20240905080653-027354f086d9 // indirect
+	go.n16f.net/service v0.0.0-20240722110736-50b450094c5c // indirect
 	go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad // indirect
 	golang.org/x/crypto v0.27.0 // indirect
 	golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e // indirect
