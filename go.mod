@@ -3,12 +3,12 @@ module git.adyxax.org/adyxax/terraform-provider-eventline
 go 1.23.0
 
 require (
-	github.com/exograd/eventline v1.1.1
+	github.com/exograd/eventline v1.1.2
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.19.4
 	github.com/hashicorp/terraform-plugin-framework v1.11.0
 	github.com/stretchr/testify v1.9.0
-	go.n16f.net/program v0.0.0-20240831125021-3669d150b233
+	go.n16f.net/program v0.0.0-20240905080349-5f3363143961
 )
 
 require (
