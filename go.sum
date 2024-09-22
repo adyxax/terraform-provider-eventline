@@ -200,8 +200,8 @@ go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 h1:fd8Yoy3KkR2LXQhej8cjGdp37P
 go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842/go.mod h1:BIWa3RtuDtvWHeBXuuhWS0NSRauDKbuM6t2WKD7J+fg=
 go.n16f.net/program v0.0.0-20240905080349-5f3363143961 h1:OrgcUy2rZsjKxRvstBA9WJs72A8cPzyMU+Aqc4i5r0U=
 go.n16f.net/program v0.0.0-20240905080349-5f3363143961/go.mod h1:MKuQtJLHafIg8LvIO6fNzt04Uzab+H3ByU1wphsuz/4=
-go.n16f.net/service v0.0.0-20240912093450-2e199f74ea7f h1:QgEgKi+zLcwIRyE9pJPaeeeuJEQ/dESsRn6sWOAweZg=
-go.n16f.net/service v0.0.0-20240912093450-2e199f74ea7f/go.mod h1:jrPJwT3S80VaTzYxaW8BzWMtGEk+6CBvKdnTxZD/5Lw=
+go.n16f.net/service v0.0.0-20240919140647-c82d13a3e862 h1:Wu3TkYT9T2Cc5g3KYESOB+nByF6tiblCZOvwJQ5HtPw=
+go.n16f.net/service v0.0.0-20240919140647-c82d13a3e862/go.mod h1:jrPJwT3S80VaTzYxaW8BzWMtGEk+6CBvKdnTxZD/5Lw=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad h1:QYbHaaFqx6hMor1L6iMSmyhMFvXQXhKaNk9nefug07M=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad/go.mod h1:hvPEWZmyP50in1DH72o5vUvoXFFyfRU6oL+p2tAcbgU=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
@@ -258,8 +258,8 @@ golang.org/x/tools v0.24.0/go.mod h1:YhNqVBIfWHdzvTLs0d8LCuMhkKUgSUKldakyV7W/WDQ
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 h1:pPJltXNxVzT4pK9yD8vR9X75DaWYYmLGMsEvBfFQZzQ=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1/go.mod h1:UqMtugtsSgubUsoxbuAoiCXvqvErP7Gf0so0mK9tHxU=
-google.golang.org/grpc v1.66.2 h1:3QdXkuq3Bkh7w+ywLdLvM56cmGvQHUMZpiCzt6Rqaoo=
-google.golang.org/grpc v1.66.2/go.mod h1:s3/l6xSSCURdVfAnL+TqCNMyTDAGN6+lZeVxnZR128Y=
+google.golang.org/grpc v1.67.0 h1:IdH9y6PF5MPSdAntIcpjQ+tXO41pcQsfZV2RxtQgVcw=
+google.golang.org/grpc v1.67.0/go.mod h1:1gLDyUQU7CTLJI90u3nXZ9ekeghjeM7pTDZlqFNg2AA=
 google.golang.org/protobuf v1.34.2 h1:6xV6lTsCfpGD21XK49h7MhtcApnLqkfYgPcdHftf6hg=
 google.golang.org/protobuf v1.34.2/go.mod h1:qYOHts0dSfpeUzUFpOMr/WGzszTmLH+DiWniOlNbLDw=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
