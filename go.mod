@@ -1,6 +1,6 @@
 module git.adyxax.org/adyxax/terraform-provider-eventline
 
-go 1.23.1
+go 1.23.2
 
 require (
 	github.com/exograd/eventline v1.1.2
