@@ -205,8 +205,8 @@ go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 h1:fd8Yoy3KkR2LXQhej8cjGdp37P
 go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842/go.mod h1:BIWa3RtuDtvWHeBXuuhWS0NSRauDKbuM6t2WKD7J+fg=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b h1:G5pCK2lzFCBZgtC3FsHkXYMSMWXqtOFml8r6OqJbrRI=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b/go.mod h1:zXAb4sKY6JIuBH4VUtECNt/p79RDwT2SgwAmY1uhfMo=
-go.n16f.net/service v0.0.0-20250116124454-c6d878b93c64 h1:A32AVt4Ye7gdQT3f4oyorMmG6v2nx4VeLegzzi/NOCE=
-go.n16f.net/service v0.0.0-20250116124454-c6d878b93c64/go.mod h1:s70or1Ieytw4xwbYZCWg7Q/mJ7yGUGbcR7RjHheXIlg=
+go.n16f.net/service v0.0.0-20250219144829-ff194bce6811 h1:qV8g6A6Az7zhKcT6DOB7FMeQU9fX9MPKWzfZg//rjns=
+go.n16f.net/service v0.0.0-20250219144829-ff194bce6811/go.mod h1:s70or1Ieytw4xwbYZCWg7Q/mJ7yGUGbcR7RjHheXIlg=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad h1:QYbHaaFqx6hMor1L6iMSmyhMFvXQXhKaNk9nefug07M=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad/go.mod h1:hvPEWZmyP50in1DH72o5vUvoXFFyfRU6oL+p2tAcbgU=
 go.opentelemetry.io/otel v1.32.0 h1:WnBN+Xjcteh0zdk01SVqV55d/m62NJLJdIyb4y/WO5U=
@@ -222,10 +222,10 @@ go.opentelemetry.io/otel/trace v1.32.0/go.mod h1:+i4rkvCraA+tG6AzwloGaCtkx53Fa+L
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=
 golang.org/x/crypto v0.3.0/go.mod h1:hebNnKkNXi2UzZN1eVRvBB7co0a+JxK6XbPiWVs/3J4=
-golang.org/x/crypto v0.33.0 h1:IOBPskki6Lysi0lo9qQvbxiQ+FvsCC/YWOecCHAixus=
-golang.org/x/crypto v0.33.0/go.mod h1:bVdXmD7IV/4GdElGPozy6U7lWdRXA4qyRVGJV57uQ5M=
-golang.org/x/exp v0.0.0-20250215185904-eff6e970281f h1:oFMYAjX0867ZD2jcNiLBrI9BdpmEkvPyi5YrBGXbamg=
-golang.org/x/exp v0.0.0-20250215185904-eff6e970281f/go.mod h1:BHOTPb3L19zxehTsLoJXVaTktb06DFgmdW6Wb9s8jqk=
+golang.org/x/crypto v0.35.0 h1:b15kiHdrGCHrP6LvwaQ3c03kgNhhiMgvlhxHQhmg2Xs=
+golang.org/x/crypto v0.35.0/go.mod h1:dy7dXNW32cAb/6/PRuTNsix8T+vJAqvuIy5Bli/x0YQ=
+golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa h1:t2QcU6V556bFjYgu4L6C+6VrCPyJZ+eyRsABUPs1mz4=
+golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa/go.mod h1:BHOTPb3L19zxehTsLoJXVaTktb06DFgmdW6Wb9s8jqk=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=
 golang.org/x/mod v0.23.0 h1:Zb7khfcRGKk+kqfxFaP5tZqCnDZMjC5VtUBs87Hr6QM=
 golang.org/x/mod v0.23.0/go.mod h1:6SkKJ3Xj0I0BrPOZoBy3bdMptDDU9oJrpohJ3eWZ1fY=
@@ -270,8 +270,8 @@ golang.org/x/tools v0.1.12/go.mod h1:hNGJHUnrk76NpqgfD5Aqm5Crs+Hm0VOH/i9J2+nxYbc
 golang.org/x/tools v0.30.0 h1:BgcpHewrV5AUp2G9MebG4XPFI1E2W41zU1SaqVA9vJY=
 golang.org/x/tools v0.30.0/go.mod h1:c347cR/OJfw5TI+GfX7RUPNMdDRRbjvYTS0jPyvsVtY=
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
-google.golang.org/genproto/googleapis/rpc v0.0.0-20250212204824-5a70512c5d8b h1:FQtJ1MxbXoIIrZHZ33M+w5+dAP9o86rgpjoKr/ZmT7k=
-google.golang.org/genproto/googleapis/rpc v0.0.0-20250212204824-5a70512c5d8b/go.mod h1:8BS3B93F/U1juMFq9+EDk+qOT5CO1R9IzXxG3PTqiRk=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250224174004-546df14abb99 h1:ZSlhAUqC4r8TPzqLXQ0m3upBNZeF+Y8jQ3c4CR3Ujms=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250224174004-546df14abb99/go.mod h1:LuRYeWDFV6WOn90g357N17oMCaxpgCnbi/44qJvDn2I=
 google.golang.org/grpc v1.70.0 h1:pWFv03aZoHzlRKHWicjsZytKAiYCtNS0dHbXnIdq7jQ=
 google.golang.org/grpc v1.70.0/go.mod h1:ofIJqVKDXx/JiXrwr2IG4/zwdH9txy3IlF40RmcJSQw=
 google.golang.org/protobuf v1.36.5 h1:tPhr+woSbjfYvY6/GPufUoYizxw1cF/yFoxJ2fmpwlM=

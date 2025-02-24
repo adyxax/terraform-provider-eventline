@@ -73,17 +73,17 @@ require (
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
 	go.n16f.net/ejson v0.0.0-20250113095929-6d03bba880f7 // indirect
 	go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 // indirect
-	go.n16f.net/service v0.0.0-20250116124454-c6d878b93c64 // indirect
+	go.n16f.net/service v0.0.0-20250219144829-ff194bce6811 // indirect
 	go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad // indirect
-	golang.org/x/crypto v0.33.0 // indirect
-	golang.org/x/exp v0.0.0-20250215185904-eff6e970281f // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/term v0.29.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250212204824-5a70512c5d8b // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250224174004-546df14abb99 // indirect
 	google.golang.org/grpc v1.70.0 // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
