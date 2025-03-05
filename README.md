@@ -2,11 +2,11 @@
 
 [Read the full documentation here](https://registry.terraform.io/providers/adyxax/eventline/latest/docs)
 
-The [Eventline](https://www.exograd.com/products/eventline/) provider is used to interact with the resources supported by Eventline. The provider needs to be configured with the proper credentials before it can be used. It requires terraform 1.0 or later.
+The [Eventline](https://www.exograd.com/products/eventline/) terraform / OpenTofu provider is used to interact with the resources supported by Eventline. The provider needs to be configured with the proper credentials before it can be used. It requires terraform 1.0 or later.
 
 ## Example Usage
 
-```terraform
+```hcl
 terraform {
   required_providers {
     eventline = {
