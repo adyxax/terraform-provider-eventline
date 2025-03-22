@@ -49,7 +49,7 @@ require (
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/jackc/pgx/v5 v5.7.2 // indirect
+	github.com/jackc/pgx/v5 v5.7.3 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/keybase/saltpack v0.0.0-20250124001807-83b98d5a6acc // indirect
 	github.com/leaanthony/go-ansi-parser v1.6.1 // indirect
