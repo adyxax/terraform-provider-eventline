@@ -205,8 +205,8 @@ go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 h1:fd8Yoy3KkR2LXQhej8cjGdp37P
 go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842/go.mod h1:BIWa3RtuDtvWHeBXuuhWS0NSRauDKbuM6t2WKD7J+fg=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b h1:G5pCK2lzFCBZgtC3FsHkXYMSMWXqtOFml8r6OqJbrRI=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b/go.mod h1:zXAb4sKY6JIuBH4VUtECNt/p79RDwT2SgwAmY1uhfMo=
-go.n16f.net/service v0.0.0-20250408091334-ae15388ccebd h1:aH0A8Hqa1ZiZvM1DUpFyCIXPCxcNYAkTAa+LzUvFH+I=
-go.n16f.net/service v0.0.0-20250408091334-ae15388ccebd/go.mod h1:s70or1Ieytw4xwbYZCWg7Q/mJ7yGUGbcR7RjHheXIlg=
+go.n16f.net/service v0.0.0-20250415103912-6c10ff68a574 h1:I1FFLRX0a60pssPJDOC4yBHSqoPxf5L01/KbC9rdGV0=
+go.n16f.net/service v0.0.0-20250415103912-6c10ff68a574/go.mod h1:s70or1Ieytw4xwbYZCWg7Q/mJ7yGUGbcR7RjHheXIlg=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad h1:QYbHaaFqx6hMor1L6iMSmyhMFvXQXhKaNk9nefug07M=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad/go.mod h1:hvPEWZmyP50in1DH72o5vUvoXFFyfRU6oL+p2tAcbgU=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
