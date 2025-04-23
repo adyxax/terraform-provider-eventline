@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.18 - 2025-04-24
+### Notes
+* Upgraded dependencies
+
 ## 0.2.17 - 2025-03-20
 ### Notes
 * Upgraded dependencies
