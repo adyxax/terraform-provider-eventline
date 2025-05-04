@@ -205,8 +205,8 @@ go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 h1:fd8Yoy3KkR2LXQhej8cjGdp37P
 go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842/go.mod h1:BIWa3RtuDtvWHeBXuuhWS0NSRauDKbuM6t2WKD7J+fg=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b h1:G5pCK2lzFCBZgtC3FsHkXYMSMWXqtOFml8r6OqJbrRI=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b/go.mod h1:zXAb4sKY6JIuBH4VUtECNt/p79RDwT2SgwAmY1uhfMo=
-go.n16f.net/service v0.0.0-20250422122406-4c2f15ee6785 h1:NNyFO7FYmhCv7b0xCFFMDokPpOLjzgTTMrMbCdAONfU=
-go.n16f.net/service v0.0.0-20250422122406-4c2f15ee6785/go.mod h1:s70or1Ieytw4xwbYZCWg7Q/mJ7yGUGbcR7RjHheXIlg=
+go.n16f.net/service v0.0.0-20250430115744-a0b859f83948 h1:NoLFCyxkzF9Ny7QX/W1AFTM0b6ZhN8/jdQhsAgwJDrs=
+go.n16f.net/service v0.0.0-20250430115744-a0b859f83948/go.mod h1:UFkRWxTQrxa7M7N/K8OrjNWOD29ENXMB0XREFF3MjME=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad h1:QYbHaaFqx6hMor1L6iMSmyhMFvXQXhKaNk9nefug07M=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad/go.mod h1:hvPEWZmyP50in1DH72o5vUvoXFFyfRU6oL+p2tAcbgU=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
@@ -272,8 +272,8 @@ golang.org/x/tools v0.1.12/go.mod h1:hNGJHUnrk76NpqgfD5Aqm5Crs+Hm0VOH/i9J2+nxYbc
 golang.org/x/tools v0.32.0 h1:Q7N1vhpkQv7ybVzLFtTjvQya2ewbwNDZzUgfXGqtMWU=
 golang.org/x/tools v0.32.0/go.mod h1:ZxrU41P/wAbZD8EDa6dDCa6XfpkhJ7HFMjHJXfBDu8s=
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
-google.golang.org/genproto/googleapis/rpc v0.0.0-20250422160041-2d3770c4ea7f h1:N/PrbTw4kdkqNRzVfWPrBekzLuarFREcbFOiOLkXon4=
-google.golang.org/genproto/googleapis/rpc v0.0.0-20250422160041-2d3770c4ea7f/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250428153025-10db94c68c34 h1:h6p3mQqrmT1XkHVTfzLdNz1u7IhINeZkz67/xTbOuWs=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250428153025-10db94c68c34/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
 google.golang.org/grpc v1.72.0 h1:S7UkcVa60b5AAQTaO6ZKamFp1zMZSU0fGDK2WZLbBnM=
 google.golang.org/grpc v1.72.0/go.mod h1:wH5Aktxcg25y1I3w7H69nHfXdOG3UiadoBtjh3izSDM=
 google.golang.org/protobuf v1.36.6 h1:z1NpPI8ku2WgiWnf+t9wTPsn6eP1L7ksHUlkfLvd9xY=
