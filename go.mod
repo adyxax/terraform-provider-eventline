@@ -42,7 +42,7 @@ require (
 	github.com/hashicorp/terraform-json v0.24.0 // indirect
 	github.com/hashicorp/terraform-plugin-go v0.28.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.9.0 // indirect
-	github.com/hashicorp/terraform-registry-address v0.2.5 // indirect
+	github.com/hashicorp/terraform-registry-address v0.3.0 // indirect
 	github.com/hashicorp/terraform-svchost v0.1.1 // indirect
 	github.com/hashicorp/yamux v0.1.2 // indirect
 	github.com/huandu/xstrings v1.3.3 // indirect
@@ -76,9 +76,9 @@ require (
 	go.n16f.net/service v0.0.0-20250430115744-a0b859f83948 // indirect
 	go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad // indirect
 	golang.org/x/crypto v0.39.0 // indirect
-	golang.org/x/exp v0.0.0-20250531010427-b6e5de432a8b // indirect
+	golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476 // indirect
 	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/net v0.41.0 // indirect
 	golang.org/x/sync v0.15.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/term v0.32.0 // indirect
