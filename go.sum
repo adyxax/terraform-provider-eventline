@@ -152,8 +152,8 @@ github.com/mitchellh/go-testing-interface v1.14.1/go.mod h1:gfgS7OtZj6MA4U1UrDRp
 github.com/mitchellh/reflectwalk v1.0.0/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
 github.com/mitchellh/reflectwalk v1.0.2 h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ=
 github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
-github.com/oklog/run v1.1.0 h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=
-github.com/oklog/run v1.1.0/go.mod h1:sVPdnTZT1zYwAJeCMu2Th4T21pA3FPOQRfWjQlk7DVU=
+github.com/oklog/run v1.2.0 h1:O8x3yXwah4A73hJdlrwo/2X6J62gE5qTMusH0dvz60E=
+github.com/oklog/run v1.2.0/go.mod h1:mgDbKRSwPhJfesJ4PntqFUbKQRZ50NgmZTSPlFA0YFk=
 github.com/pjbgf/sha1cd v0.3.0 h1:4D5XXmUUBUl/xQ6IjCkEAbqXskkq/4O7LmGn0AqMDs4=
 github.com/pjbgf/sha1cd v0.3.0/go.mod h1:nZ1rrWOcGJ5uZgEEVL1VUM9iRQiZvWdbZjkKyFzPPsI=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
@@ -205,8 +205,8 @@ go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 h1:fd8Yoy3KkR2LXQhej8cjGdp37P
 go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842/go.mod h1:BIWa3RtuDtvWHeBXuuhWS0NSRauDKbuM6t2WKD7J+fg=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b h1:G5pCK2lzFCBZgtC3FsHkXYMSMWXqtOFml8r6OqJbrRI=
 go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b/go.mod h1:zXAb4sKY6JIuBH4VUtECNt/p79RDwT2SgwAmY1uhfMo=
-go.n16f.net/service v0.0.0-20250430115744-a0b859f83948 h1:NoLFCyxkzF9Ny7QX/W1AFTM0b6ZhN8/jdQhsAgwJDrs=
-go.n16f.net/service v0.0.0-20250430115744-a0b859f83948/go.mod h1:UFkRWxTQrxa7M7N/K8OrjNWOD29ENXMB0XREFF3MjME=
+go.n16f.net/service v0.0.0-20250702134722-7a6ef366f3e8 h1:4LPlxKxrLjT/6n+Qui7RHRGThm4GC0aaszans+30xX4=
+go.n16f.net/service v0.0.0-20250702134722-7a6ef366f3e8/go.mod h1:UFkRWxTQrxa7M7N/K8OrjNWOD29ENXMB0XREFF3MjME=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad h1:QYbHaaFqx6hMor1L6iMSmyhMFvXQXhKaNk9nefug07M=
 go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad/go.mod h1:hvPEWZmyP50in1DH72o5vUvoXFFyfRU6oL+p2tAcbgU=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
