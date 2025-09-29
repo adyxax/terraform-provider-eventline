@@ -6,9 +6,9 @@ require (
 	github.com/exograd/eventline v1.1.2
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.21.0
-	github.com/hashicorp/terraform-plugin-framework v1.15.1
+	github.com/hashicorp/terraform-plugin-framework v1.16.1
 	github.com/stretchr/testify v1.11.1
-	go.n16f.net/program v0.0.0-20241208190041-4d0013a2857b
+	go.n16f.net/program v0.0.0-20250918094618-b194f071aee8
 )
 
 require (
@@ -23,7 +23,7 @@ require (
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.8.1 // indirect
 	github.com/cloudflare/circl v1.6.1 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -40,7 +40,7 @@ require (
 	github.com/hashicorp/hc-install v0.9.1 // indirect
 	github.com/hashicorp/terraform-exec v0.22.0 // indirect
 	github.com/hashicorp/terraform-json v0.24.0 // indirect
-	github.com/hashicorp/terraform-plugin-go v0.28.0 // indirect
+	github.com/hashicorp/terraform-plugin-go v0.29.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.9.0 // indirect
 	github.com/hashicorp/terraform-registry-address v0.4.0 // indirect
 	github.com/hashicorp/terraform-svchost v0.1.1 // indirect
@@ -60,7 +60,7 @@ require (
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/oklog/run v1.2.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/posener/complete v1.2.3 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
@@ -73,7 +73,7 @@ require (
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
 	go.n16f.net/ejson v0.0.0-20250113095929-6d03bba880f7 // indirect
 	go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 // indirect
-	go.n16f.net/service v0.0.0-20250902173546-846775abc5a3 // indirect
+	go.n16f.net/service v0.0.0-20250917103357-7c802d096591 // indirect
 	go.n16f.net/uuid v0.0.0-20240707135755-e4fd26b968ad // indirect
 	golang.org/x/crypto v0.42.0 // indirect
 	golang.org/x/exp v0.0.0-20250911091902-df9299821621 // indirect
@@ -83,7 +83,7 @@ require (
 	golang.org/x/sys v0.36.0 // indirect
 	golang.org/x/term v0.35.0 // indirect
 	golang.org/x/text v0.29.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250908214217-97024824d090 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250922171735-9219d122eba9 // indirect
 	google.golang.org/grpc v1.75.1 // indirect
 	google.golang.org/protobuf v1.36.9 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
