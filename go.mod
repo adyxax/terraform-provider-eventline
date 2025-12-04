@@ -1,12 +1,12 @@
 module git.adyxax.org/adyxax/terraform-provider-eventline
 
-go 1.25.4
+go 1.25.5
 
 require (
 	github.com/exograd/eventline v1.1.2
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.21.0
-	github.com/hashicorp/terraform-plugin-framework v1.16.1
+	github.com/hashicorp/terraform-plugin-framework v1.17.0
 	github.com/stretchr/testify v1.11.1
 	go.n16f.net/program v0.0.0-20250918094618-b194f071aee8
 )
@@ -83,7 +83,7 @@ require (
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/term v0.37.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251124214823-79d6a2a48846 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
 	google.golang.org/grpc v1.77.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
