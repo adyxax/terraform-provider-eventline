@@ -1,6 +1,6 @@
 module git.adyxax.org/adyxax/terraform-provider-eventline
 
-go 1.25.6
+go 1.25.7
 
 require (
 	github.com/exograd/eventline v1.1.2
@@ -8,7 +8,7 @@ require (
 	github.com/hashicorp/terraform-plugin-docs v0.21.0
 	github.com/hashicorp/terraform-plugin-framework v1.17.0
 	github.com/stretchr/testify v1.11.1
-	go.n16f.net/program v0.0.0-20250918094618-b194f071aee8
+	go.n16f.net/program v0.0.0-20260206121636-fe9184ecb7f2
 )
 
 require (
@@ -73,17 +73,17 @@ require (
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
 	go.n16f.net/ejson v0.0.0-20251010105520-7081c5da028d // indirect
 	go.n16f.net/log v0.0.0-20240820155337-9eef10dcf842 // indirect
-	go.n16f.net/service v0.0.0-20260105114740-776fd06971cd // indirect
+	go.n16f.net/service v0.0.0-20260205105217-5f3136808411 // indirect
 	go.n16f.net/uuid v0.0.0-20251120121934-372c52119b7f // indirect
 	golang.org/x/crypto v0.47.0 // indirect
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
 	golang.org/x/mod v0.32.0 // indirect
 	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/term v0.39.0 // indirect
 	golang.org/x/text v0.33.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260120174246-409b4a993575 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260203192932-546029d2fa20 // indirect
 	google.golang.org/grpc v1.78.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
