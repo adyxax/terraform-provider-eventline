@@ -47,6 +47,8 @@ resource "eventline_identity" "example" {
 
 Import is supported using the following syntax:
 
+The [`terraform import` command](https://developer.hashicorp.com/terraform/cli/commands/import) can be used, for example:
+
 ```shell
 terraform import eventline_identity.test <project_id>/<identity_id>
 ```
