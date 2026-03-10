@@ -6,7 +6,7 @@ require (
 	github.com/exograd/eventline v1.1.2
 	github.com/exograd/go-daemon v0.0.0-20221017152404-800adf39c12f
 	github.com/hashicorp/terraform-plugin-docs v0.24.0
-	github.com/hashicorp/terraform-plugin-framework v1.18.0
+	github.com/hashicorp/terraform-plugin-framework v1.19.0
 	github.com/stretchr/testify v1.11.1
 	go.n16f.net/program v0.0.0-20260212183426-b249c07f3b8f
 )
@@ -42,7 +42,7 @@ require (
 	github.com/hashicorp/hc-install v0.9.3 // indirect
 	github.com/hashicorp/terraform-exec v0.25.0 // indirect
 	github.com/hashicorp/terraform-json v0.27.2 // indirect
-	github.com/hashicorp/terraform-plugin-go v0.30.0 // indirect
+	github.com/hashicorp/terraform-plugin-go v0.31.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.10.0 // indirect
 	github.com/hashicorp/terraform-registry-address v0.4.0 // indirect
 	github.com/hashicorp/terraform-svchost v0.2.1 // indirect
